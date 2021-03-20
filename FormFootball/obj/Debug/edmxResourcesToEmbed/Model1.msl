@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="STUDENTI_PINModelStoreContainer" CdmEntityContainer="STUDENTI_PINEntities">
+    <EntitySetMapping Name="Belacic_Fixtures">
+      <EntityTypeMapping TypeName="STUDENTI_PINModel.Belacic_Fixtures">
+        <MappingFragment StoreEntitySet="Belacic_Fixtures">
+          <ScalarProperty Name="MainId2" ColumnName="MainId2" />
+          <ScalarProperty Name="Home_Team" ColumnName="Home_Team" />
+          <ScalarProperty Name="Away_Team" ColumnName="Away_Team" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="League_Name" ColumnName="League_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Belacic_Results">
+      <EntityTypeMapping TypeName="STUDENTI_PINModel.Belacic_Results">
+        <MappingFragment StoreEntitySet="Belacic_Results">
+          <ScalarProperty Name="ResultId" ColumnName="ResultId" />
+          <ScalarProperty Name="Home_Team" ColumnName="Home_Team" />
+          <ScalarProperty Name="Away_Team" ColumnName="Away_Team" />
+          <ScalarProperty Name="Home_Team_Goals" ColumnName="Home_Team_Goals" />
+          <ScalarProperty Name="Away_Team_Goals" ColumnName="Away_Team_Goals" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="League_Name" ColumnName="League_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

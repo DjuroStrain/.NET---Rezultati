@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="STUDENTI_PINModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Belacic_Fixtures">
+    <Key>
+      <PropertyRef Name="MainId2" />
+    </Key>
+    <Property Name="MainId2" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Home_Team" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Away_Team" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="League_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Belacic_Results">
+    <Key>
+      <PropertyRef Name="ResultId" />
+    </Key>
+    <Property Name="ResultId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Home_Team" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Away_Team" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Home_Team_Goals" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Away_Team_Goals" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Date" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="League_Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="STUDENTI_PINEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Belacic_Fixtures" EntityType="Self.Belacic_Fixtures" />
+    <EntitySet Name="Belacic_Results" EntityType="Self.Belacic_Results" />
+  </EntityContainer>
+</Schema>

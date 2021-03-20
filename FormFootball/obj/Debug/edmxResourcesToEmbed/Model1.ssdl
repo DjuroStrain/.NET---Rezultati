@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="STUDENTI_PINModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Belacic_Fixtures">
+    <Key>
+      <PropertyRef Name="MainId2" />
+    </Key>
+    <Property Name="MainId2" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Home_Team" Type="nvarchar" MaxLength="50" />
+    <Property Name="Away_Team" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="nvarchar" MaxLength="50" />
+    <Property Name="League_Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Belacic_Results">
+    <Key>
+      <PropertyRef Name="ResultId" />
+    </Key>
+    <Property Name="ResultId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Home_Team" Type="nchar" MaxLength="50" />
+    <Property Name="Away_Team" Type="nchar" MaxLength="50" />
+    <Property Name="Home_Team_Goals" Type="nchar" MaxLength="10" />
+    <Property Name="Away_Team_Goals" Type="nchar" MaxLength="10" />
+    <Property Name="Date" Type="nchar" MaxLength="10" />
+    <Property Name="League_Name" Type="nchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="STUDENTI_PINModelStoreContainer">
+    <EntitySet Name="Belacic_Fixtures" EntityType="Self.Belacic_Fixtures" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Belacic_Results" EntityType="Self.Belacic_Results" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

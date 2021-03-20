@@ -1,0 +1,12 @@
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\bin\Debug\AddCompetitions.exe.config
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\bin\Debug\AddCompetitions.exe
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\bin\Debug\AddCompetitions.pdb
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\bin\Debug\FootballData.dll
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\bin\Debug\Newtonsoft.Json.dll
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\bin\Debug\FootballData.pdb
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\bin\Debug\Newtonsoft.Json.xml
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\obj\Debug\AddCompetitions.csprojAssemblyReference.cache
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\obj\Debug\AddCompetitions.csproj.CoreCompileInputs.cache
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\obj\Debug\AddCompetitions.csproj.CopyComplete
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\obj\Debug\AddCompetitions.exe
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\AddCompetitions\obj\Debug\AddCompetitions.pdb

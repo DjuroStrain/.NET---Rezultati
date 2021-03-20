@@ -1,0 +1,9 @@
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\FootballData\bin\Debug\FootballData.dll
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\FootballData\bin\Debug\FootballData.pdb
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\FootballData\bin\Debug\Newtonsoft.Json.dll
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\FootballData\bin\Debug\Newtonsoft.Json.xml
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\FootballData\obj\Debug\FootballData.csproj.CoreCompileInputs.cache
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\FootballData\obj\Debug\FootballData.csproj.CopyComplete
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\FootballData\obj\Debug\FootballData.dll
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\FootballData\obj\Debug\FootballData.pdb
+C:\Users\38599\Documents\Morningstar\Faks\2. godina\.NET\FootballData\FootballData\obj\Debug\FootballData.csprojAssemblyReference.cache
